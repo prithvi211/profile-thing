@@ -1,0 +1,61 @@
+h1 {
+    color: black;
+ }
+*{
+    border: solid
+}
+h2 {
+    color: black;
+}
+
+.header{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.games{
+
+    background-color: orangered;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+    
+}
+.pages{
+    margin:30px;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+}
+.pages a{
+    margin-bottom: 12px;
+}
+.pic{
+    display:flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, yellow,red);
+}
+.pic img{
+    width:200px;
+    height:200px;
+    border-radius: 100px;
+   
+}
+
+.game img{
+
+width:600px;
+height:400px;
+
+}
+.games p{
+    color:black;
+    font-size : 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
